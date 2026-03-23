@@ -21,5 +21,7 @@ int main (){
         num--;
     }
     
+    cout << "\nEstudiante: Jose Daniel Real Garcia" << endl << "Carnet: 9941-25-837";
+
     return 0;
 }

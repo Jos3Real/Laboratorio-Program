@@ -19,5 +19,7 @@ int main (){
     
     cout << "La suma total es: " << suma << endl;
 
+    cout << "\nEstudiante: Jose Daniel Real Garcia" << endl << "Carnet: 9941-25-837";
+
     return 0;
 }

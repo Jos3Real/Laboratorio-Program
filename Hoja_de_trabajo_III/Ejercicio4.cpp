@@ -47,5 +47,7 @@ int main() {
 
     } while (opciones != 3);
 
+    cout << "\nEstudiante: Jose Daniel Real Garcia" << endl << "Carnet: 9941-25-837";
+
     return 0;
 }
