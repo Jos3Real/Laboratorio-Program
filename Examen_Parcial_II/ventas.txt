@@ -1,0 +1,5 @@
+Jose Real, Galletas, 20, 35.5, 710, 49.7, 660.3, Efectivo
+Aless Solis, Cereal, 20, 45.5, 910, 45.5, 864.5, Tarjeta
+Stiven Garcia, Jabon, 10, 26.52, 265.2, 0, 265.2, Transferencia
+Pedro Perez, Jamon, 20, 17.63, 352.6, 7.052, 345.548, Efectivo
+Guadalupe Del Cid, Desinfectante, 30, 10, 300, 0, 300, Transferencia
