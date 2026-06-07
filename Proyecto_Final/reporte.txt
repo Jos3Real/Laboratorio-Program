@@ -1,26 +1,26 @@
 ====================================================
   SISTEMA DE GESTIÓN DE VENTAS E INVENTARIO
-  Reporte generado: Sat Jun 06 07:31:10 2026
+  Reporte generado: Sun Jun 07 00:16:06 2026
 ====================================================
 
 --- INVENTARIO DE PRODUCTOS ---
 COD   NOMBRE                   PRECIO      STOCK   VENDIDO 
 -----------------------------------------------------------
-101   Coca Cola 600ml          Q7.50       80      30      
-102   Pan Bimbo Grande         Q15.00      42      8       
-103   Aceite Ideal 1L          Q28.50      30      0       
-104   Arroz Toro 1LB           Q5.00       195     5       
-105   Frijoles Negros 1LB      Q7.25       150     0       
+101   Coca Cola 600ml          Q7.50       70      30      
+102   Pan Bimbo Grande         Q15.00      47      3       
+103   Aceite Ideal 1L          Q28.50      15      15      
+105   Frijoles Negros 1LB      Q6.50       150     0       
 201   Jabon Palmolive          Q9.75       60      0       
-202   Shampoo Head Shoulders   Q35.00      25      0       
+202   Shampoo Head Shoulders   Q40.00      25      0       
 301   Papel Higienico Suave    Q22.00      5       0       
+100   Cereal de trigo          Q30.50      90      0       
 
 --- RESUMEN DE VENTAS ---
 Total de ventas registradas: 2
-Monto total acumulado: Q406.00
+Monto total acumulado: Q729.46
 
 --- VENTAS POR MES ---
-Junio: Q406.00
+Junio: Q729.46
 
 ====================================================
   Fin del reporte.

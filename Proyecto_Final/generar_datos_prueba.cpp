@@ -4,6 +4,9 @@
 #include <cstring>
 using namespace std;
 
+// IMPORTANTE: Este valor DEBE ser idéntico a MAX_DETALLES en main.cpp
+const int MAX_DETALLES = 20;
+
 struct Producto {
     int    codigo;
     char   nombre[60];
@@ -25,7 +28,7 @@ struct DetalleVenta {
 struct Venta {
     int          idVenta;
     int          dia, mes, anio, hora, minuto;
-    DetalleVenta detalles[20];
+    DetalleVenta detalles[MAX_DETALLES];   // sincronizado con main.cpp
     int          numDetalles;
     double       subtotal;
     double       descuento;
@@ -58,7 +61,7 @@ int main() {
     setP(6, 202, "Shampoo Head Shoulders", "Higiene",      35.00, 25,   0);
     setP(7, 301, "Papel Higienico Suave",  "Hogar",        22.00,  5,   0);
 
-    ofstream fp("evidencias/productos.dat", ios::binary | ios::trunc);
+    ofstream fp("productos.dat", ios::binary | ios::trunc);
     fp.write(reinterpret_cast<char*>(&n), sizeof(int));
     fp.write(reinterpret_cast<char*>(prods), sizeof(Producto)*n);
     fp.close();
@@ -79,7 +82,7 @@ int main() {
     v.subtotal = 120.00; v.descuento = 0.00; v.iva = 14.40; v.total = 134.40;
 
     int nv = 1;
-    ofstream fv("evidencias/ventas.dat", ios::binary | ios::trunc);
+    ofstream fv("ventas.dat", ios::binary | ios::trunc);
     fv.write(reinterpret_cast<char*>(&nv), sizeof(int));
     fv.write(reinterpret_cast<char*>(&v), sizeof(Venta));
     fv.close();
